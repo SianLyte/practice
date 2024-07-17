@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a0e508f8-a658-4975-ba82-96d8aae9127a" name="vm" url="http://192.168.0.8">
+        <fileTransfer accessType="LOCAL" port="0" username="vagrant" />
+      </webServer>
+      <webServer id="e24a4f13-fc23-4893-9a7c-b23c1be9335b" name="web_debugging" url="http://localhost:8081">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+      <webServer id="6d74a30b-ef7f-4ab9-9a77-4dbef1a52a13" name="l" url="http://192.168.107.76">
+        <fileTransfer accessType="SFTP" host="192.168.107.76" port="22" sshConfigId="29637536-804f-43dd-a2f5-96fbe497c755" sshConfig="bitrix@192.168.107.76:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
